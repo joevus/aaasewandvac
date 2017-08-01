@@ -1,0 +1,15 @@
+.jumbotron {
+    background: url(images/screenprint-sepia.jpg) center;
+    background-size: cover;
+    color: white;
+}
+
+.call-p {
+    margin-top: 50px;
+}
+
+
+.btn-primary {
+    background: #a0b7c7;
+    border: #93AABA;
+}
