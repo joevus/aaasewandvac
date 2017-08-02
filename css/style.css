@@ -38,6 +38,10 @@ section, footer {
 }
 
 .address {
+    padding-bottom: 30px;
+}
+
+.address ul {
     list-style-type: none;
 }
 
