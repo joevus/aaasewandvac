@@ -1,3 +1,13 @@
+body {
+    font-size: 18px;
+}
+
+section, footer {
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .jumbotron {
     background: url(../images/screenprint-sepia.jpg) center;
     background-size: cover;
@@ -20,6 +30,7 @@
 
 .portrait-paul {
     width: 100%;
+    margin-top: 40px;
 }
 
 .gray {
