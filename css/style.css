@@ -1,17 +1,51 @@
 body {
     font-size: 18px;
+    font-family: 'Helvetica';
 }
 
-section, footer {
+h1, h2, h3, h4, h5, h6, .nav>li>a {
+  font-family: 'Georgia', serif;
+}
+
+h1 {
+  font-size: 56pt;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+hr {
+  border-top: 3px solid #a52323;
+}
+
+section {
+  line-height: 1.6;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+footer {
     line-height: 30px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 
 .jumbotron {
-    background: url(../images/MEET-ME-ON-33-google-maps-lighter-file.jpg) center;
+    background: url(../images/store-front-sepia-no-border.jpg) center;
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
+    height: 500px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 250px;
+}
+
+.jumbotron h1 {
+  background-color: rgba(200,200,200,.7);
 }
 
 .call-p {
@@ -35,6 +69,69 @@ section, footer {
 
 .gray {
     background: #edece8;
+}
+
+.front-description {
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+
+
+.features {
+  padding-bottom: 90px;
+}
+
+.features i {
+  font-size: 56pt;
+}
+
+.feature-group {
+  padding-top: 100px;
+}
+
+.feature-descrip {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-descrip p {
+  width: 80%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-one {
+  grid-column: 1/2;
+}
+
+.col-two {
+  grid-colunn: 2/3;
+}
+
+.col-three {
+  grid-column: 3/4;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  overflow: hidden;
+  display: block; /*for the img inside your div */
+  margin: 0 auto;
+}
+
+
+
+
+.contact-us {
+  padding-top: 120px;
+  padding-bottom: 80px;
 }
 
 .address {
