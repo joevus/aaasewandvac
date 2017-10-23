@@ -11,6 +11,12 @@ h1 {
   font-size: 56pt;
 }
 
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48pt;
+  }
+}
+
 h2 {
   font-size: 32pt;
 }
@@ -37,6 +43,12 @@ footer {
     background-repeat: no-repeat;
     color: white;
     height: 500px;
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    height: 250px;
+  }
 }
 
 .jumbotron .container {
